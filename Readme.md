@@ -1,4 +1,4 @@
-# Deploy flask to heroku
+# Deploy flask to heroku :v:
 [Deploying a Flask Application to Heroku](https://stackabuse.com/deploying-a-flask-application-to-heroku/)
 ## creating a virtualenv
 ```
@@ -14,3 +14,10 @@ pip install gunicorn
 ```
 pip freeze > requirements.txt
 ```
+## Create file Procfile
+```
+web: gunicorn app:app
+```
+
+## Let's deploy heroku
+[Heroku](https://dashboard.heroku.com/)
